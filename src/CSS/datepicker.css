@@ -1,0 +1,73 @@
+/* General container spacing */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Styling the buttons */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Calendar highlight for selected recurrence dates */
+.react-calendar__tile--highlight {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Spacing for form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.mt-3 {
+  margin-top: 20px;
+}
+
+/* Specific Days of the Week checkbox styling */
+.inline-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inline-checkboxes .form-check {
+  margin-right: 10px;
+}
+
+/* Nth day input */
+input[type="number"] {
+  width: 100px;
+}
+
+/* Form label styling */
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Preview section */
+.preview-container {
+  margin-top: 30px;
+}
+
+.preview-container h5 {
+  font-size: 1.25rem;
+  color: #007bff;
+}
