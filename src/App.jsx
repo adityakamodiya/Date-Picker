@@ -5,7 +5,7 @@ function App() {
   return (
     <div id="wrapper">
     <div className="App">
-      <h1>Date Picker with Recurrence</h1>
+      <h1><span style={{color:'wheat'}}>Date</span> Picker with Recurrence</h1>
       <DatePickerWithRecurrence />
     </div>
     </div>
