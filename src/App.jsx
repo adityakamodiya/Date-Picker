@@ -1,15 +1,14 @@
 import React from 'react';
-import DatePickerWithRecurrence from './DatePickerWithRecurrence';
+import DatePickerWithRecurrence from './DatePickerRecurrence';
+import { RecurrenceProvider } from './RecurrenceContextVar';
 
 function App() {
-  return (
-    <div id="wrapper">
-    <div className="App">
-      <h1><span style={{color:'wheat'}}>Date</span> Picker with Recurrence</h1>
+  return (<>
+    <RecurrenceProvider>
+    <h1><span style={{ color: 'wheat' }}>Date</span> Picker with Recurrence</h1>
       <DatePickerWithRecurrence />
-    </div>
-    </div>
-  );
+    </RecurrenceProvider>
+  </>);
 }
 
 export default App;
